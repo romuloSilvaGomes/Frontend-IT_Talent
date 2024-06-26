@@ -6,7 +6,7 @@ import { Container, Row, Col, Table } from 'react-bootstrap';
 function Aluno() {
     const { id } = useParams();
     const [aluno, setAluno] = useState([null]);
-    const base = "http://localhost:8080"
+    const base = "http://localhost:8000"
 
     useEffect(() => {
         const pegaAluno = async () => {

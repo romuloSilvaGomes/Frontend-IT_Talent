@@ -8,7 +8,7 @@ function Create() {
     const [nome, setNome] = useState('');
     const [idade, setIdade] = useState('');
     const [cidade, setCidade] = useState('');
-    const base = "http://localhost:8080"
+    const base = "http://localhost:8000"
 
     const handleSubmit = async (e) => {
         e.preventDefault();

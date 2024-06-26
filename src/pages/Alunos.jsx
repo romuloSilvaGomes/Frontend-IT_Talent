@@ -4,7 +4,7 @@ import { Container, Row, Col, Table } from 'react-bootstrap';
 
 function Alunos() {
     const [alunos, setAlunos] = useState([])
-    const base = "http://localhost:8080"
+    const base = "http://localhost:8000"
 
     useEffect(() => {
         const pegaAlunos = async () => {
